@@ -15,6 +15,11 @@
 ## You should have received a copy of the GNU General Public License
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+## This program uses Scopatz's nanorc.
+## Copyright (C) 2014+ Anthony Scopatz et al.
+## https://github.com/scopatz/nanorc
+## Released under the GPL v3.0+
+
 ## Autoindent
 set autoindent
 
@@ -27,7 +32,6 @@ set backupdir "~/.config/nano/backups"
 
 ## Display line numbers
 set linenumbers
-
 
 ## Mouse support
 set mouse
