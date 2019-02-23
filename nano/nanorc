@@ -1,0 +1,55 @@
+## My initialization file for GNU nano.
+
+## Copyright (C) 2019  TANNO Mahito
+
+## This program is free software: you can redistribute it and/or modify
+## it under the terms of the GNU General Public License as published by
+## the Free Software Foundation, either version 3 of the License, or
+## (at your option) any later version.
+
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+
+## You should have received a copy of the GNU General Public License
+## along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+## Autoindent
+set autoindent
+
+## Backup file
+set backup
+set backupdir "~/.config/nano/backups"
+
+## For case-sensitive searche, uncomment the following
+# set casesensitive
+
+## Display line numbers
+set linenumbers
+
+
+## Mouse support
+set mouse
+
+## Multiple buffer
+set multibuffer
+
+## Smooth scroll
+set smooth
+
+## Softwrap
+set softwrap
+
+## Suspend by typing `C-z'
+set suspend
+
+## Use whitespace for indent in stead of tab
+## Set default tab size to 4
+set tabstospaces
+set tabsize 4
+
+## Syntax highlighting
+## We use @scopatz's nanorc, see
+## https://github.com/scopatz/nanorc
+include "~/.config/nano/nano-syntax-highlighting/*.nanorc"

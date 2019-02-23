@@ -1,0 +1,6 @@
+[submodule "nano/nano-synntax-highlighting"]
+	path = nano/nano-synntax-highlighting
+	url = git@github.com:scopatz/nanorc.git
+[submodule "nano/nano-syntax-highlighting"]
+	path = nano/nano-syntax-highlighting
+	url = git@github.com:scopatz/nanorc.git
