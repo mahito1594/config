@@ -14,13 +14,12 @@ macOS の場合
 
 ```
 $ cd ~/projects/config/git
-$ curl -sL https://www.gitignore.io/api/osx >> gitignore_global
+$ curl -sL https://www.gitignore.io/api/osx >> ~/project/config/git/ignore
 $ mkdir -p ~/.config
 $ ln -s ~/projects/config/git/ ~/.config/git
-$ git config --global core.excludefile ~/.config/git/gitignore_global
 $ git config --global include.path "~/.config/git/aliases"
 ```
-とする．
+などとする．
 
 ## nano
 簡単な nano の設定．
