@@ -1,0 +1,18 @@
+{
+  "segments": [
+    "virtual_env",
+    "ssh",
+    "cwd",
+    "git",
+    "git_stash",
+    "jobs",
+    "newline",
+    "root"
+  ],
+  "mode": "patched",
+  "cwd": {
+      "mode": "plain",
+      "max_depth": 3,
+      "max_dir_size": 8
+  }
+}
