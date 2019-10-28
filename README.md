@@ -14,12 +14,20 @@ macOS の場合
 
 ```
 $ cd ~/projects/config/git
-$ curl -sL https://www.gitignore.io/api/osx >> ~/project/config/git/ignore
 $ mkdir -p ~/.config
 $ ln -s ~/projects/config/git/ ~/.config/git
 $ git config --global include.path "~/.config/git/aliases"
 ```
 などとする．
+
+global な gitignore の設定は
+
+```
+$ gibo dump macOS >> ~/.gitignore_global
+$ git config --global core.excludesfile "~/.gitignore_global"
+```
+
+などとする． [gibo](https://github.com/simonwhitaker/gibo) コマンドの代わりに [gitignore.io](http://gitignore.io/) を利用してもよい．
 
 ## nano
 簡単な nano の設定．
