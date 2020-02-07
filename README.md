@@ -29,6 +29,17 @@ $ git config --global core.excludesfile "~/.gitignore_global"
 
 などとする． [gibo](https://github.com/simonwhitaker/gibo) コマンドの代わりに [gitignore.io](http://gitignore.io/) を利用してもよい．
 
+## GnuPG
+`~/.gnupg` 以下にシンボリックリンクを貼るなどして利用する．
+環境変数 `GPG_TTY` を正しく設定してやる必要がある．
+
+```
+$ export GPG_TTY=$(tty)
+# or echo 'GPG_TTY=$(tty)' >> ~/.bash_profile (or ~/.bashrc)
+```
+
+詳しくは [Commonly seen problems](https://www.gnupg.org/documentation/manuals/gnupg/Common-Problems.html) を参照．
+
 ## nano
 簡単な nano の設定．
 シンタックスハイライトに https://github.com/scopatz/nanorc を利用している．
