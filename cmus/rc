@@ -1,0 +1,15 @@
+set follow=false
+set repeat=false
+set format_current= [%3{tracknumber}] %{title} - %{album} (by %{artist}) %= %{date}
+bind -f common b player-prev
+bind -f common f player-next
+unbind -f common j
+unbind -f common k
+bind -f common n win-down
+bind -f common N win-mv-after
+bind -f common p win-up
+bind -f common P win-mv-before
+bind -f common q quit -i
+bind -f common z shell tmux detach-client -s cmus
+
+
