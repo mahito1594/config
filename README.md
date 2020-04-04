@@ -48,3 +48,18 @@ $ export GPG_TTY=$(tty)
 $ mkdir -p ~/.config ~/projects/config/nano/backups
 $ ln -s ~/projects/config/nano/ ~/.config/nano
 ```
+
+
+## cmus/rc
+[cmus](https://cmus.github.io/ "C* Music Player") の設定．
+デフォルトだと vim 風のキーバインドなのでいくつか Emacs 風に置き換えている．
+
+```
+ln -s /path/to/mahito1594/cmus/ ${XDG_CONFIG_HOME}/cmus
+```
+
+cmus は以下の順に設定ファイルを読み込む:
+
+1. `${XDG_CONFIG_HOME}/cmus/autosave`
+1. 上が存在しない場合 `/usr/share/cmus/rc`
+1. `{$XDG_CONFIG_HOME}/cmus/rc`
