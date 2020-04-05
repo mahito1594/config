@@ -1,0 +1,7 @@
+alias reshell='exec -l $SHELL'
+if type ghq >/dev/null && type fzf >/dev/null; then
+    alias repo='cd $(ghq list -p | fzf)'
+fi
+if type tmux >/dev/null && type cmus >/dev/null; then
+    alias cmus='tmux new-session -A -D -s cmus "$(which cmus)"'
+fi

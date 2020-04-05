@@ -63,3 +63,12 @@ cmus は以下の順に設定ファイルを読み込む:
 1. `${XDG_CONFIG_HOME}/cmus/autosave`
 1. 上が存在しない場合 `/usr/share/cmus/rc`
 1. `{$XDG_CONFIG_HOME}/cmus/rc`
+
+## Bash
+### aliases
+alias をまとめたもの
+
+``` shell
+echo 'source /path/to/config/bash/aliases' >> ~/.bash_profile
+```
+
